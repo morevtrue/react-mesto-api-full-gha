@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.81.113
+IP 51.250.81.113
 
 Frontend https://mesto-morevtrue.students.nomoreparties.co
 
