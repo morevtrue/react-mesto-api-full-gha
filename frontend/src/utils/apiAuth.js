@@ -59,4 +59,4 @@ export default class ApiAuth {
 
 }
 
-export const apiAuth = new ApiAuth('http://api.mestomorev.students.nomoreparties.co');
+export const apiAuth = new ApiAuth('https://api.mestomorev.students.nomoreparties.co');
