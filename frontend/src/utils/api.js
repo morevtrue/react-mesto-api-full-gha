@@ -17,9 +17,9 @@ export default class Api {
   getInitialCards() {
     return fetch(this._baseUrl + 'cards', {
       credentials: 'include',
-      headers: {
-        authorization: this._token
-      }
+      // headers: {
+      //   authorization: this._token
+      // }
     }).then(res => this._getCheck(res));
   }
 
@@ -28,7 +28,7 @@ export default class Api {
       method: 'POST',
       credentials: 'include',
       headers: {
-        authorization: this._token,
+        // authorization: this._token,
         'Content-Type': this._contentType
       },
       body: JSON.stringify({
@@ -41,9 +41,9 @@ export default class Api {
   getProfileContent() {
     return fetch(this._baseUrl + 'users/me', {
       credentials: 'include',
-      headers: {
-        authorization: this._token
-      }
+      // headers: {
+      //   authorization: this._token
+      // }
     }).then(res => this._getCheck(res));
   }
 
@@ -83,7 +83,7 @@ export default class Api {
       method: 'PATCH',
       credentials: 'include',
       headers: {
-        authorization: this._token,
+        // authorization: this._token,
         'Content-Type': this._contentType
       },
       body: JSON.stringify({
@@ -95,9 +95,9 @@ export default class Api {
 }
 
 export const api = new Api({
-  baseUrl: 'http://localhost:4000/',
+  baseUrl: 'http://localhost:3000/',
   headers: {
-    authorization: '3f6b2ef5-b9e5-4ebd-9f38-797a06c223a7',
+    // authorization: '3f6b2ef5-b9e5-4ebd-9f38-797a06c223a7',
     'Content-Type': 'application/json'
   }
 });
