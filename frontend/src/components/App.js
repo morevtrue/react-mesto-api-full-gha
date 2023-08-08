@@ -200,6 +200,7 @@ function App() {
   }
 
   function handleSubmitAuth(password, email) {
+    setIsErrorRegister(false);
     apiAuth
       .authorization(password, email)
       .then((res) => {
@@ -209,6 +210,8 @@ function App() {
         return res;
       })
       .catch((err) => {
+        handleRegisterPopupClick();
+        setIsErrorRegister(true);
         console.log(err);
       })
   }
