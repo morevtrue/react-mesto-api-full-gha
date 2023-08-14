@@ -8,7 +8,8 @@
 
 Функционал: регистрация и авторизация пользователя, редактирование профиля пользователя, добавление и удаление карточек, постановка и снятие лайка карточкам, обработка приходящих на сервер данных, хранение данных в базе.
 
-Используемый стек технологий: <div>
+## Используемый стек технологий: 
+<div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
@@ -18,8 +19,6 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="mongodb" alt="mongodb" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg" title="express" alt="express" width="40" height="40"/>&nbsp;
 </div>
-
-Адрес репозитория: https://github.com/morevtrue/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
