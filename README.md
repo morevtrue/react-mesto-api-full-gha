@@ -8,7 +8,16 @@
 
 Функционал: регистрация и авторизация пользователя, редактирование профиля пользователя, добавление и удаление карточек, постановка и снятие лайка карточкам, обработка приходящих на сервер данных, хранение данных в базе.
 
-Используемый стек технологий: HTML, CSS, React JS, Rest API, Node JS, Express JS, MongoDB.
+Используемый стек технологий: <div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="mongodb" **alt="mongodb" width="40" height="40"/>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg" title="express" **alt="express" width="40" height="40"/>
+</div>
 
 Адрес репозитория: https://github.com/morevtrue/react-mesto-api-full-gha
 
@@ -22,9 +31,9 @@ Backend https://api.mestomorev.students.nomoreparties.co
 
 ## Развёртывание приложения
 
-Backend: в терминале перейти в директорию `backend`, ввести команду `npm run dev`.
+Backend: в терминале перейти в директорию `/backend`, ввести команду `npm run dev`.
 
-Frontend: в терминале перейти в директорию `frontend`, ввести команду `npm start`.
+Frontend: в терминале перейти в директорию `/frontend`, ввести команду `npm start`.
 
 ## Системные требования
 
