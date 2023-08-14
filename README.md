@@ -36,9 +36,9 @@ Frontend: в терминале перейти в директорию `/fronten
 
 ## Системные требования
 
-GIT v2.33.0
-Node JS v16.16.0
-ReactJS v5.0.1
+GIT v2.33.0 &nbsp;
+Node JS v16.16.0 &nbsp;
+ReactJS v5.0.1 &nbsp;
 MongoDB v4.4.23
 
 ## Статус и планы по доработке
