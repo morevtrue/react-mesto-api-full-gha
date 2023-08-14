@@ -21,11 +21,11 @@ const { errorHandler } = require('./middlewares/error-handler');
 const auth = require('./middlewares/auth');
 const { NotFoundError } = require('./errors/not-found-error');
 
-const { PORT = 3000, DB_URL = 'mongodb://localhost:27017/mestodb' } = process.env;
+const { PORT = 4000, DB_URL = 'mongodb://localhost:27017/mestodb' } = process.env;
 const app = express();
 
 app.use(cors({
-  origin: 'https://mesto-morevtrue.students.nomoreparties.co',
+  origin: 'http://localhost:3000',
   credentials: true,
 }));
 app.use(cookieParser());
